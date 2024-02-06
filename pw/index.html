@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/pq.png" type="image/x-icon" />
+    <meta property="og:image" content="images/pwww.jpg" />
+    <meta
+      name="description"
+      content="Strong Password Generator Tool - Use this free strong password generator tool to create highly secure passwords that are difficult to crack or guess."
+    />
+    <meta name="keywords" content="Security, Password Generator" />
+    <meta name="author" content="Syed Hussain" />
+    <style></style>
+  </head>
+  <body>
+    <section>
+      <form>
+        <div>
+          <label>choose the password length (between 6 and 2048)</label>
+          <input
+            type="range"
+            id="password-length"
+            type="number"
+            type="password"
+            min="6 "
+            max="2048"
+          />
+        </div>
+        <div>
+          <label for="symbols">Do you wnt to include symbols</label>
+          <input type="checkbox" id="symbols" name="symbols" />
+        </div>
+        <div>
+          <label for="digits">do you want to include digits</label>
+          <input type="checkbox" id="digits" name="digits" />
+        </div>
+        <div>
+          <label for="lowercase">
+            do you want to include lowercase characters :
+          </label>
+          <input type="checkbox" id="lowercase" name="lowercase" />
+        </div>
+        <div>
+          <label for="uppercase">
+            do you want to include uppercase characters :
+          </label>
+          <input type="checkbox" id="uppercase" name="uppercase" />
+        </div>
+        <div>
+          <label for="duplicates"> do you want to exlucde duplicates : </label>
+          <input type="checkbox" id="duplicates" name="duplicates" />
+        </div>
+        <div>
+          <label for="ambiguity">
+            do you want to exlucde ambiguous characters :
+          </label>
+          <input type="checkbox" id="ambiguity" name="ambiguity" />
+        </div>
+      </form>
+    </section>
+  </body>
+</html>

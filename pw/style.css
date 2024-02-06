@@ -1,0 +1,12 @@
+body {
+    background-color: #2d2d2d;
+    color:coral
+  }
+section{
+    border:2px solid coral;
+    width:60%;
+    height:600px;
+    margin:auto;
+    padding:30px
+
+  }
