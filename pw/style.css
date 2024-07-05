@@ -1,50 +1,47 @@
-.app {
+body{
     background-color: #2d2d2d;
-    color:coral;
-    border:5px solid coral;
-    width:70%;
-    height:600px;
-    margin:auto;
-    padding:30px;
-    border-radius: 5px;
-  }
-  hr{
-    border-color: palegoldenrod;
-    border-width:2px;
-  }
-  .header{
-text-align: center;
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-  input[type="checkbox"]{
-    height:25px;
-    width:25px;
-    cursor: pointer;
-    background-color:coral
-  }
-  input[type="range"]{
-  
-    
-    cursor: pointer;
-
-  }
-  .label-fields{
-      padding:8px;
-      font-size: 25px;
-  }
-  input[type="submit"]{
-    width:20%;
-    padding: 15px;
+    color: coral;
+}
+.container{
+    border: 4px solid coral;
+    width: 80%;
+    height: 60%;
+    margin: auto;
     text-align: center;
+    border-radius: 5%;
+
+}
+#len{
+    color: aliceblue;
+}
+.form{
+    padding: 20px;
+    text-align: left;
+}
+hr{
+    border-width: 3px ;
+}
+input[type="checkbox"]{
+    height: 16px;
+    width: 16px;
     cursor: pointer;
-  }
-  textarea{
-    color: beige;
-    background-color: palegoldenrod;
-    border:2px solid coral ;
+}
+input[type="submit"]{
+    cursor: pointer;
+}
+input[type="range"]{
+    height: 10px;
+    width: 50;
+}
+
+textarea {
     width: 100%;
-    height:30px;
-    align-content: center;
+    height: 50px;
+    background-color: #2d2d2d;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    font-size: large;
     resize: none;
     cursor: pointer;
-  }
+}
